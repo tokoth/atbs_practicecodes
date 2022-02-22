@@ -4,9 +4,6 @@
 
 # My Solution
 
-from unittest import TestCase, TestResult, TestSuite
-
-
 def xo(s):
     num_x = 0
     num_o = 0
@@ -23,6 +20,21 @@ def xo(s):
     elif num_x != num_o :
         return False
 
+# Copied Long Solution
+#def xo(s):
+    #countX = 0
+    #countO = 0
+    #for i in s:
+        #if (i == 'X') | (i == 'x'):
+            #countX = countX + 1
+        #elif (i == 'O') | (i == 'o'):
+            #countO = countO + 1
+    #if countX == countO:     
+        #return True
+    #else:
+        #return False
+
+# Copied short solution
 # Test        
 print(xo('xo'))
 print(xo('xo0'))
