@@ -35,6 +35,14 @@ def xo(s):
         #return False
 
 # Copied short solution
+
+#def xo(s):
+    #s = s.lower()
+    #return s.count('x') == s.count('o')
+
+#def xo(s):
+    #return s.lower().count('x') == s.lower().count('o')
+    
 # Test        
 print(xo('xo'))
 print(xo('xo0'))
