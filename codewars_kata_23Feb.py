@@ -20,7 +20,7 @@ def positive_sum(arr):
         return 0
 
 
-# Test
+# Test 1
 print(positive_sum([1,-4,7,12]))
 print(positive_sum([]))
 
@@ -30,5 +30,23 @@ def greet():
     return 'hello world!'
 
 
-# Test 
+# Test 2
 print(greet())
+
+
+def paperwork(n, m):
+    # Check if n or m is greater than o
+    
+    if (n > 0) and (m > 0):
+        return n*m
+    elif (n < 0) or ( m < 0):
+        return 0
+    elif (n == 0) or ( m == 0):
+        return 0
+
+# Test 3
+print(paperwork(5,5)) # Should return 25
+print(paperwork(-5,5))# Should return 0
+print(paperwork(8,7))# Should return 56
+print(paperwork(-5,-5))# Should return 0
+print(paperwork(5,0)) # Should return 0
